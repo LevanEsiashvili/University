@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleSoft.Mediator" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\University.Domain\University.Domain.csproj" />
+    <ProjectReference Include="..\University.Infrastructure\University.Infrastructure.csproj" />
+    <ProjectReference Include="..\University.Shared\University.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
